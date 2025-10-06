@@ -1,3 +1,5 @@
 <?php
-@print "Hola 1argv[1]\n";
+//Pasando numero por defecto
+$nombre = isset($argv[1]) ? $argv[1]: "Mundo";
+@print "Hola, {$nombre}\n";
 ?>
